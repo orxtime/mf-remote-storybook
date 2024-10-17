@@ -12,7 +12,7 @@ export const UICounter: FC<UICounterProps> = ({}) => {
   return (
     <div
       role="button"
-      className="p-3 bg-yellow-300 cursor-pointer"
+      className={`py-1 px-4 bg-red-600 text-white cursor-pointer font-bold text-2xl inline-block select-none rounded w-24 text-center`}
       onClick={() => onClick()}
     >
       {counter}
